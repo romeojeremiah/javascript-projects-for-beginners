@@ -1,0 +1,57 @@
+body{
+    background-color: lightblue;
+}
+
+form{
+    background-color: darkblue;
+    width: 50%;
+    color: white;
+    margin: 50px auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+form h1{
+    text-align: center;
+}
+
+form input#todo-input{
+    box-sizing: border-box;
+    width: 75%;
+    height: 25px;
+    padding-left: 25px;
+}
+
+#add-item{
+    height: 25px;
+    width: 25%;
+    background-color: red;
+    color: white;
+    border-style: none;
+}
+
+ul {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 25px 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.delete-item{
+    background-color: yellow;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    width: 50px;
+    text-align: center;
+}
+
+.delete-item:hover{
+    background-color: orange;
+    width: 55px;
+}
