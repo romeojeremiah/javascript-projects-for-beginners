@@ -1,0 +1,13 @@
+p{
+    text-align: center;
+    font-size: 125px;
+}
+P#root{
+    color: blue;
+    font-size: 150px;
+}
+
+body{
+    background-color: yellow;
+    color: black;
+}
